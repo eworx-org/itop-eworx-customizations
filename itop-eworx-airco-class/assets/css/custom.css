@@ -1,0 +1,7 @@
+* {
+    background: red;
+}
+
+[data-object-class="AirCo"] [data-attribute-code="brand_id"] {
+    display: none;
+}

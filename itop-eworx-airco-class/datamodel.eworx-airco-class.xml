@@ -43,4 +43,14 @@
     <profiles>
     </profiles>
   </user_rights>
+  <branding>
+    <themes>
+      <theme id="fullmoon" _delta="must_exist">
+        <stylesheets>
+          <stylesheet id="foobar">assets/css/custom.css</stylesheet>
+        </stylesheets>
+        <precompiled_stylesheet>assets/css/custom.css</precompiled_stylesheet>
+      </theme>
+    </themes>
+  </branding>
 </itop_design>
