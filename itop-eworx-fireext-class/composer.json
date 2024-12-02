@@ -9,7 +9,7 @@
   },
   "name": "eworx/eworx-fireext-class",
   "type": "itop-extension",
-  "description": "EWORX FireExt Class (EWX-669)",
+  "description": "EWORX Fire Extinguisher Class (EWX-669)",
   "require": {
     "composer-runtime-api": "^2.0"
   }
