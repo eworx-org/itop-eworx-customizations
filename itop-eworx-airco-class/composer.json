@@ -9,7 +9,7 @@
   },
   "name": "eworx/eworx-airco-class",
   "type": "itop-extension",
-  "description": "EWORX AirCo Class (EWX-669)",
+  "description": "EWORX Air Condition Class (EWX-669)",
   "require": {
     "composer-runtime-api": "^2.0"
   }
