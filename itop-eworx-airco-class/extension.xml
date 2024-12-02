@@ -5,5 +5,5 @@
   <label><![CDATA[EWORX Air Condition Class (EWX-669)]]></label>
   <description><![CDATA[Creates the Air Condition Class]]></description>
   <mandatory>false</mandatory>
-  <more_info_url></more_info_url>
+  <more_info_url>https://jira.eworx.gr/browse/EWX-669</more_info_url>
 </extension>
