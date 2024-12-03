@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itop_design xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.2">
+  <constants>
+  </constants>
+  <classes>
+    <class id="Peripheral" _delta="must_exist">
+      <fields>
+        <field id="ewx_lab_consumable" xsi:type="AttributeEnum" _delta="define_if_not_exists">
+          <values>
+            <value id="no">
+              <code>no</code>
+            </value>
+            <value id="yes">
+              <code>yes</code>
+            </value>
+          </values>
+          <sql>ewx_lab_consumable</sql>
+          <default_value>no</default_value>
+          <is_null_allowed>false</is_null_allowed>
+          <display_style>radio_horizontal</display_style>
+        </field>
+        <field id="ewx_category" xsi:type="AttributeString" _delta="define_if_not_exists">
+          <sql>ewx_category</sql>
+          <default_value/>
+          <is_null_allowed>false</is_null_allowed>
+        </field>
+        <field id="ewx_subcategory" xsi:type="AttributeString" _delta="define_if_not_exists">
+          <sql>ewx_subcategory</sql>
+          <default_value/>
+          <is_null_allowed>true</is_null_allowed>
+        </field>
+        <field id="ewx_quantity" xsi:type="AttributeInteger" _delta="define_if_not_exists">
+          <sql>ewx_quantity</sql>
+          <default_value>0</default_value>
+          <is_null_allowed>false</is_null_allowed>
+        </field>
+        <field id="ewx_supplier" xsi:type="AttributeString" _delta="define_if_not_exists">
+          <sql>ewx_supplier</sql>
+          <default_value/>
+          <is_null_allowed>true</is_null_allowed>
+        </field>
+      </fields>
+      <presentation>
+        <details>
+          <items>
+            <item id="ewx_lab_consumable">
+              <rank>200</rank>
+            </item>
+            <item id="ewx_category">
+              <rank>25</rank>
+            </item>
+            <item id="ewx_subcategory">
+              <rank>26</rank>
+            </item>
+            <item id="ewx_quantity">
+              <rank>55</rank>
+            </item>
+            <item id="ewx_supplier">
+              <rank>56</rank>
+            </item>
+          </items>
+        </details>
+      </presentation>
+    </class>
+  </classes>
+  <menus>
+  </menus>
+  <user_rights>
+    <groups>
+    </groups>
+    <profiles>
+    </profiles>
+  </user_rights>
+</itop_design>
