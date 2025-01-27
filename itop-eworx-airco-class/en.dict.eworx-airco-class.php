@@ -9,5 +9,6 @@
 Dict::Add('EN US', 'English', 'English', array(
 	// Dictionary entries go here
 	'Class:AirCo' => 'Air Condition',
+	'Class:Model/Attribute:type/Value:AirCo' => 'Air Condition',
 ));
 ?>
