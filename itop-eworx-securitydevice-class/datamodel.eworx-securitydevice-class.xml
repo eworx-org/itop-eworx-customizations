@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itop_design xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.6">
+  <constants>
+  </constants>
+  <classes>
+    <class id="SecurityDevice" _delta="define">
+      <parent>PhysicalDevice</parent>
+      <properties>
+        <category>bizmodel,searchable</category>
+        <abstract>false</abstract>
+        <key_type>autoincrement</key_type>
+        <db_table>monitor</db_table>
+        <db_key_field>id</db_key_field>
+        <db_final_class_field/>
+        <naming>
+          <attributes>
+            <attribute id="name"/>
+          </attributes>
+        </naming>
+        <style>
+          <icon>assets/img/securitydevice.svg</icon>
+        </style>
+        <reconciliation>
+          <attributes>
+            <attribute id="name"/>
+            <attribute id="org_id"/>
+            <attribute id="organization_name"/>
+          </attributes>
+        </reconciliation>
+      </properties>
+      <fields>
+      </fields>
+      <presentation>
+      </presentation>
+      <methods/>
+    </class>
+    <class id="Model" _delta="must_exist">
+      <fields>
+        <field id="type" xsi:type="AttributeEnum" _delta="must_exist">
+         <values>
+            <value id="SecurityDevice">
+              <code>SecurityDevice</code>
+            </value>
+          </values>
+        </field>
+      </fields>
+    </class>
+  </classes>
+  <menus>
+  </menus>
+  <user_rights>
+    <groups>
+    </groups>
+    <profiles>
+    </profiles>
+  </user_rights>
+</itop_design>
